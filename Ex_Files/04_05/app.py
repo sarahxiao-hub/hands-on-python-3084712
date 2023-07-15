@@ -33,6 +33,6 @@ def laureate_list():
             results.append(laureate)
 
     return jsonify(results)
-
+    #search function to match first or last name, while possible for partial match
 
 app.run(debug=True)
